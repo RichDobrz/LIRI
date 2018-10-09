@@ -1,18 +1,23 @@
 # LIRI
 
 
-Search for songs on spotify by song name using the spotify-this-song followed by the song name in quotes
+## spotify-this-song
+**Search for songs on spotify by song name using the spotify-this-song followed by the song name in quotes**
 ![](liriimages/allthesmallthings.png)
 
 
-Search movies on the OMDB using movies this followed by the movie you want to search in quotes
+## movie-this
+**Search movies on the OMDB using movies this followed by the movie you want to search in quotes**
 ![](liriimages/hannahtakes.png)
 
-Search upcomming concerts for an artist using concert-this followed by the artist/band name
+## concert-this
+**Search upcomming concerts for an artist using concert-this followed by the artist/band name**
 ![](liriimages/sting.png)
 
-do-what-it-says keyword gives you my favorite movie based on random.txt
+## do-what-it-says
+**do-what-it-says keyword gives you my favorite movie based on random.txt**
 ![](liriimages/dowhatitsays.png)
 
-Default movie search
+## without argument
+**Default movie search**
 ![](liriimages/default.png)
