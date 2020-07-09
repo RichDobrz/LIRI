@@ -70,6 +70,7 @@ function movieThis(arg2){
    
     // creates request to OMDB and logs relevent returned data
     request("http://www.omdbapi.com/?apikey=trilogy&t=" + arg2, function(error, response, body){
+        console.log("***************************************************")
         console.log("***************************")
         console.log(JSON.parse(body).Title)
         console.log("Released: " + JSON.parse(body).Year)
@@ -80,6 +81,8 @@ function movieThis(arg2){
         console.log("Plot: " + JSON.parse(body).Plot)
         console.log("Cast: " + JSON.parse(body).Actors)
         console.log("***************************")
+        console.log("***********************")
+        console.log("************************************************")
     })
 }
 
